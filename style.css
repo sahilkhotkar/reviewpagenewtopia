@@ -1,0 +1,153 @@
+.vidcontainer{
+    position: relative;
+    width: 1920px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+}
+
+.reviewcon{
+    position: relative;
+    margin: auto ;
+    display: flex;
+    height: 1596px;
+    width: 1920px;
+    background-color: #E1E6EA;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.reviewcon #rightbg{
+    position: absolute;
+    margin-right: -135px;
+    z-index: 2;
+    margin-top: -622px;
+    margin-left: 1627px;
+    opacity: 0.7;
+    height: 1018px;
+    width: 1018px;
+}
+
+.reviewcon #leftbg{
+    width: 1018px;
+    position: absolute;
+    z-index: 2;
+   margin-right: 1600px;
+    opacity: 0.7;
+    height: 1018px;
+    width: 1018px;
+    margin-top: 500px;
+}
+
+
+
+.textandimgcon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-left:262px;
+    margin-top: 0;
+    margin-right:700px;
+    text-align: center;
+    position: relative;
+    
+    
+    height: 1596px;
+    width: 1237px;
+}
+
+.mainhead{
+    
+   font-weight: 600; 
+   width: 1194px;
+   font-family: "Poppins";
+   font-weight: SemiBold;
+   color: #173450;
+   font-size: 60px;
+   
+   margin: 200px 262px 0 262px;
+}
+
+.profileimg{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: 15px solid #A6BF36;
+    margin: 99px 385px 0 385px;
+    
+}
+
+.review1{
+    font-family: "Poppins";
+    color: #173450;
+    margin-top: 54px;
+    font-size: 40px;
+}
+.review2{
+    font-family: "Poppins";
+    font-weight: 400;
+    color: #173450;
+    margin-top: 54px;
+    font-size: 40px;
+}
+.uname{
+    font-family: "Poppins";
+    font-weight: 600;
+    color: #173450;
+    margin-top: 54px;
+    font-size: 30px;
+}
+
+.udes{
+    font-family: "Poppins";
+    color: #173450;
+    font-weight: 400;
+    margin-top: -11px;
+    font-size: 30px;
+}
+
+.margin{
+    margin-left:262px;
+    margin-right:262px;
+}
+
+.button{
+    height: 15px;
+    width: 15px;
+    background-color: gray;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+.active{
+    background-color: #173450;
+}
+
+.buttondiv{
+    display: flex;
+    
+}
+
+
+.reviewcon #leftarrow{
+    position: absolute;
+    
+    margin-right: 1652px;
+    z-index: 3;
+    font-size: 42px;
+    margin-top: 664px;
+}
+.reviewcon #rightarrow{
+    z-index: 3;
+    
+    font-size: 42px;
+    position: absolute;
+    margin-left: 1652px;
+    margin-top: 664px;
+}
+
